@@ -1,0 +1,20 @@
+{
+  "name": "text-only tweet (no media)",
+  "request": {
+    "text": "synthetic fixture (not a real tweet) https://x.com/fixture_user/status/1000000000000000002",
+    "url": "https://x.com/fixture_user/status/1000000000000000002"
+  },
+  "exchanges": [
+    {
+      "match": "cdn.syndication.twimg.com/tweet-result",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body_file": "syndication_text.json"
+    }
+  ],
+  "expect": {
+    "type": "richtext"
+  }
+}

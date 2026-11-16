@@ -1,0 +1,44 @@
+{
+  "code": 0,
+  "message": "OK",
+  "ttl": 1,
+  "data": {
+    "bvid": "BV1DDpE68EYy",
+    "aid": 116000000000001,
+    "title": "花了20块钱用MiniMax H3做了个MV 《心动未署名》",
+    "desc": "少年把喜欢叠成纸飞机，落款没敢写上；纸飞机夹进诗集，被她借走。\n\n其实只是用的20块钱电费♡=•ㅅ＜=)\n音乐使用的YuE2\n视频使用的MiniMax H3",
+    "pic": "http://i2.hdslb.com/bfs/archive/fixture-cover.jpg",
+    "pubdate": 1791718200,
+    "duration": 206,
+    "tname": "原创音乐",
+    "copyright": 1,
+    "owner": {
+      "mid": 158995,
+      "name": "叮叮渚",
+      "face": "https://i1.hdslb.com/bfs/face/fixture-avatar.gif"
+    },
+    "stat": {
+      "view": 1000,
+      "danmaku": 1,
+      "reply": 2,
+      "favorite": 3,
+      "coin": 4,
+      "share": 5,
+      "like": 6
+    },
+    "pages": [
+      {
+        "cid": 42651225064,
+        "page": 1,
+        "from": "vupload",
+        "part": "1791709933104",
+        "duration": 206,
+        "dimension": {
+          "width": 1920,
+          "height": 1080,
+          "rotate": 0
+        }
+      }
+    ]
+  }
+}

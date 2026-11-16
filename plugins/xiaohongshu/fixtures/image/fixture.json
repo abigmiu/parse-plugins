@@ -1,0 +1,30 @@
+{
+  "name": "xiaohongshu-image",
+  "request": {
+    "text": "https://xhslink.cn/o/9efgISfob4M",
+    "url": "https://xhslink.cn/o/9efgISfob4M"
+  },
+  "exchanges": [
+    {
+      "match": "xhslink.cn/o/9efgISfob4M",
+      "status": 200,
+      "final_url": "https://www.xiaohongshu.com/discovery/item/6adc9af8000000002c0215db?xsec_token=FIXTURE&xsec_source=app_share&type=normal",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "body_file": "note.html"
+    },
+    {
+      "match": "sns-bak-v6.xhscdn.com",
+      "status": 200,
+      "body": ""
+    }
+  ],
+  "expect": {
+    "type": "image",
+    "title": "戴眼镜却非常漂亮必吃榜!!超全合集",
+    "author": "美女养成指南",
+    "media_kind": "image",
+    "media_count": 1
+  }
+}

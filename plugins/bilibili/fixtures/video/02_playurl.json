@@ -1,0 +1,34 @@
+{
+  "code": 0,
+  "message": "0",
+  "ttl": 1,
+  "data": {
+    "from": "local",
+    "result": "suee",
+    "message": "",
+    "quality": 64,
+    "format": "mp4720",
+    "timelength": 206000,
+    "accept_quality": [
+      64,
+      16
+    ],
+    "accept_description": [
+      "高清 720P",
+      "流畅 360P"
+    ],
+    "accept_format": "mp4720,mp4360",
+    "video_codecid": 7,
+    "durl": [
+      {
+        "order": 1,
+        "length": 206000,
+        "size": 1234567,
+        "ahead": "",
+        "vhead": "",
+        "url": "https://upos-sz-estghw.akamaized.net/fixture/video-42651225064.mp4?fixture=1",
+        "backup_url": []
+      }
+    ]
+  }
+}

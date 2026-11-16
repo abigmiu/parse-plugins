@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "id": "douyin",
+  "name": "抖音",
+  "version": "0.1.0",
+  "entry": "rule.mjs",
+  "description": "抖音分享链接解析（视频/图文）",
+  "config": [
+    {
+      "key": "cookie",
+      "label": "Cookie",
+      "type": "secret",
+      "required": false,
+      "help": "登录后从浏览器复制；只保存在本机"
+    }
+  ]
+}

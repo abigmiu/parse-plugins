@@ -1,0 +1,81 @@
+{
+  "name": "douyin video",
+  "request": {
+    "text": "",
+    "url": "https://v.douyin.com/GZlCMKOSUyo/"
+  },
+  "exchanges": [
+    {
+      "match": "https://v.douyin.com/GZlCMKOSUyo/",
+      "status": 200,
+      "final_url": "https://www.iesdouyin.com/share/video/7695771953914760484/?region=CN\u0026mid=7695772969466481462\u0026u_code=0\u0026did=FIXTURE\u0026iid=FIXTURE\u0026with_sec_did=FIXTURE\u0026video_share_track_ver=\u0026titleType=title\u0026share_sign=FIXTURE\u0026share_version=380400\u0026ts=1793683646\u0026from_aid=1128\u0026from_ssr=1\u0026share_track_info=%7B%22link_description_type%22%3A%22%22%7D\u0026utm_source=copy\u0026utm_campaign=client_share\u0026utm_medium=android\u0026app=aweme\u0026ug_share_id=FIXTURE\u0026activity_info=%7B%22social_author_id%22%3A%22482046954716825%22%2C%22social_share_id%22%3A%22e41898ae-53dc-4b85-8eef-bdea36cc60d1%22%2C%22social_share_time%22%3A%221793683658%22%2C%22social_share_user_id%22%3A%220%22%7D\u0026share_extra_params=%7B%22schema_type%22%3A%221%22%7D",
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-security-policy": "script-src nonce-argus-csp-token 'unsafe-eval' 'unsafe-inline' *.bytescm.com *.bytecdn.com *.ibytedapm.com *.bytetos.com *.unpkg.com *.zijieapi.com *.bytegoofy.com *.bytedance.net *.yhgfb-cn-static.com;upgrade-insecure-requests;report-to default;frame-ancestors *.douyin.com *.iesdouyin.com *.bytedance.net",
+        "content-security-policy-report-only": "connect-src 'self' blob: data: ws: wss: bytedance: snssdk1128: android-webview-video-poster: *.zijieapi.com *.ibytedapm.com *.bytetos.com *.bytednsdoc.com *.zijieimg.com *.zjurl.cn *.pstatp.com *.bytecdn.cn *.bytecdn.com *.isnssdk.com *.365yg.com *.ipstatp.com *.amemv.com *.ibytedtos.com *.ixigua.com *.ixiguavideo.com *.hypstarcdn.com *.tiktokcdn.com *.topbuzzcdn.com *.muscdn.com *.huoshanzhibo.com *.huoshanxiaoshipin.cn *.huoshanxiaoshipin.net *.huoshanvideo.cn *.huoshanvideo.net *.ieshuodong.cn *.ieshuodong.net *.byteoversea.com *.byted.org *.bytedance.net *.bytescm.com *.bytedance.com *.toutiaocloud.com *.snssdk.com *.toutiao.com *.huoshan.com *.douyin.com *.douyincdn.com *.jinritemai.com *.chengzijianzhan.com *.baike.com *.ribaoapi.com *.bytexservice.com *.pglstatp-toutiao.com *.oceanengine.com *.dyvideotape.com *.alicdn.com *.iesdouyin.com *.m.douyin.com *.byteimg.com *.zjcdn.com *.bytednsdoc.com *.douyinpic.com *.douyinstatic.com *.bdxiguaimg.com *.bdxiguastatic.com *.bytegoofy.com *.unpkg.com *.unpkg.byted-static.com *.draftstatic.com *.bytetcc.com *.yhgfb-cn-static.com http://127.0.0.1:* https://127.0.0.1:* http://localhost:* https://localhost:* *.huoshanstatic.com *.idouyinvod.com:* *.douyinvod.com:* *.volcsiriusbd.com:* *.volcsirius.com:*  *.tt.x.bsgslb.cn:* *.dy.zzcdnx.com:*  *.qc.bsccdn.net:* *.smtcdns.com:* *.ugslb.com:* *.livehwc3.cn:* *.smtcdns.net:* *.bytefcdnrd.com:* *.ksyungslb.com:* *.ksyungslb2.com:* *.ourdvsss.com:* *.tbcache.com:* *.jomodns.com:* *.douyincdn.com:* *.ixigua.com:* *.bdxigualive.com:* *.pstatp.com:* *.douyinliving.com:* *.picovr.com:* *.huoshanlive.com:* *.ihuoshanlive.com:* *.volccdn.com:* *.bestv.com.cn:* *.bytefcdn.com:* *.qnqcdn.net:*  *.jomoxc.com *.jomoxd.com *.a.bdycdn.cn *.hiecheimaetu.com:* *.ppio.cloud:* *.weilayun.com:* *.saxysec.com:* *.saxyit.com:* *.saxydc.com:* *.sjxysec.com:* *.sjxydc.com:* *.vegslb.com:*;script-src nonce-argus-csp-token 'unsafe-eval' 'unsafe-inline' *.bytescm.com *.bytecdn.com *.ibytedapm.com *.bytetos.com *.unpkg.com *.zijieapi.com *.bytegoofy.com *.bytedance.net *.yhgfb-cn-static.com;upgrade-insecure-requests;report-to default;frame-ancestors *.douyin.com *.iesdouyin.com *.bytedance.net",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Tue, 03 Nov 2026 06:57:56 GMT",
+        "eagleid": "74a2790c17936890758613392e",
+        "last-modified": "Tue, 03 Nov 2026 06:57:56 GMT",
+        "reporting-endpoints": "default=\"https://mon.zijieapi.com/monitor_browser/collect/batch/security/?bid=aweme_share\"",
+        "server": "Tengine",
+        "server-timing": "inner; dur=123,bd-edenx-server-loader-video_(id)_page; dur=19.999981, bd-edenx-server-loader; dur=19.999981, bd-edenx-ssr-prerender; dur=0.999927, bd-edenx-ssr-render-html; dur=0, tt_agw; dur=101",
+        "set-cookie": "ttwid=FIXTURE_TTWID; Domain=.iesdouyin.com; Path=/; Expires=Fri, 29 Oct 2027 06:57:55 GMT; HttpOnly",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "timing-allow-origin": "*",
+        "vary": "Accept-Encoding",
+        "via": "ens-cache7.cn9306[223,0]",
+        "x-content-type-options": "nosniff",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-modernjs-render": "server",
+        "x-tt-logid": "20261103145755D79FD549DA58707362FC",
+        "x-tt-trace-host": "0146348be66b6c862c4581769eac3df171b7e415d544a00ddf1ff927cfb8df22b31d18ab6e6857ee3b80e0f662154d40e837b8f36c3784ecf3267da18413e95d401e70cc0e6219a86d120f26ab1a935d21ab673e53950e298f948cc506fce90ea0",
+        "x-tt-trace-id": "00-261103145755D79FD549DA58707362FC-43FF6E7A7F9900C6-00",
+        "x-tt-trace-tag": "id=03;cdn-cache=miss;type=dyn",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body_file": "00_v.douyin.com_GZlCMKOSUyo.html"
+    },
+    {
+      "match": "https://www.iesdouyin.com/share/video/7695771953914760484/",
+      "status": 200,
+      "final_url": "https://www.iesdouyin.com/share/video/7695771953914760484/?region=CN\u0026mid=7695772969466481462\u0026u_code=0\u0026did=FIXTURE\u0026iid=FIXTURE\u0026with_sec_did=FIXTURE\u0026video_share_track_ver=\u0026titleType=title\u0026share_sign=FIXTURE\u0026share_version=380400\u0026ts=1793683646\u0026from_aid=1128\u0026from_ssr=1\u0026share_track_info=%7B%22link_description_type%22%3A%22%22%7D\u0026utm_source=copy\u0026utm_campaign=client_share\u0026utm_medium=android\u0026app=aweme\u0026ug_share_id=FIXTURE\u0026activity_info=%7B%22social_author_id%22%3A%22482046954716825%22%2C%22social_share_id%22%3A%22e41898ae-53dc-4b85-8eef-bdea36cc60d1%22%2C%22social_share_time%22%3A%221793683658%22%2C%22social_share_user_id%22%3A%220%22%7D\u0026share_extra_params=%7B%22schema_type%22%3A%221%22%7D",
+      "headers": {
+        "access-control-allow-credentials": "true",
+        "content-security-policy": "script-src nonce-argus-csp-token 'unsafe-eval' 'unsafe-inline' *.bytescm.com *.bytecdn.com *.ibytedapm.com *.bytetos.com *.unpkg.com *.zijieapi.com *.bytegoofy.com *.bytedance.net *.yhgfb-cn-static.com;upgrade-insecure-requests;report-to default;frame-ancestors *.douyin.com *.iesdouyin.com *.bytedance.net",
+        "content-security-policy-report-only": "connect-src 'self' blob: data: ws: wss: bytedance: snssdk1128: android-webview-video-poster: *.zijieapi.com *.ibytedapm.com *.bytetos.com *.bytednsdoc.com *.zijieimg.com *.zjurl.cn *.pstatp.com *.bytecdn.cn *.bytecdn.com *.isnssdk.com *.365yg.com *.ipstatp.com *.amemv.com *.ibytedtos.com *.ixigua.com *.ixiguavideo.com *.hypstarcdn.com *.tiktokcdn.com *.topbuzzcdn.com *.muscdn.com *.huoshanzhibo.com *.huoshanxiaoshipin.cn *.huoshanxiaoshipin.net *.huoshanvideo.cn *.huoshanvideo.net *.ieshuodong.cn *.ieshuodong.net *.byteoversea.com *.byted.org *.bytedance.net *.bytescm.com *.bytedance.com *.toutiaocloud.com *.snssdk.com *.toutiao.com *.huoshan.com *.douyin.com *.douyincdn.com *.jinritemai.com *.chengzijianzhan.com *.baike.com *.ribaoapi.com *.bytexservice.com *.pglstatp-toutiao.com *.oceanengine.com *.dyvideotape.com *.alicdn.com *.iesdouyin.com *.m.douyin.com *.byteimg.com *.zjcdn.com *.bytednsdoc.com *.douyinpic.com *.douyinstatic.com *.bdxiguaimg.com *.bdxiguastatic.com *.bytegoofy.com *.unpkg.com *.unpkg.byted-static.com *.draftstatic.com *.bytetcc.com *.yhgfb-cn-static.com http://127.0.0.1:* https://127.0.0.1:* http://localhost:* https://localhost:* *.huoshanstatic.com *.idouyinvod.com:* *.douyinvod.com:* *.volcsiriusbd.com:* *.volcsirius.com:*  *.tt.x.bsgslb.cn:* *.dy.zzcdnx.com:*  *.qc.bsccdn.net:* *.smtcdns.com:* *.ugslb.com:* *.livehwc3.cn:* *.smtcdns.net:* *.bytefcdnrd.com:* *.ksyungslb.com:* *.ksyungslb2.com:* *.ourdvsss.com:* *.tbcache.com:* *.jomodns.com:* *.douyincdn.com:* *.ixigua.com:* *.bdxigualive.com:* *.pstatp.com:* *.douyinliving.com:* *.picovr.com:* *.huoshanlive.com:* *.ihuoshanlive.com:* *.volccdn.com:* *.bestv.com.cn:* *.bytefcdn.com:* *.qnqcdn.net:*  *.jomoxc.com *.jomoxd.com *.a.bdycdn.cn *.hiecheimaetu.com:* *.ppio.cloud:* *.weilayun.com:* *.saxysec.com:* *.saxyit.com:* *.saxydc.com:* *.sjxysec.com:* *.sjxydc.com:* *.vegslb.com:*;script-src nonce-argus-csp-token 'unsafe-eval' 'unsafe-inline' *.bytescm.com *.bytecdn.com *.ibytedapm.com *.bytetos.com *.unpkg.com *.zijieapi.com *.bytegoofy.com *.bytedance.net *.yhgfb-cn-static.com;upgrade-insecure-requests;report-to default;frame-ancestors *.douyin.com *.iesdouyin.com *.bytedance.net",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Tue, 03 Nov 2026 06:57:56 GMT",
+        "eagleid": "74a2790c17936890761304284e",
+        "last-modified": "Tue, 03 Nov 2026 06:57:56 GMT",
+        "reporting-endpoints": "default=\"https://mon.zijieapi.com/monitor_browser/collect/batch/security/?bid=aweme_share\"",
+        "server": "Tengine",
+        "server-timing": "inner; dur=402,bd-edenx-server-loader-video_(id)_page; dur=288.000107, bd-edenx-server-loader; dur=289.000034, bd-edenx-ssr-prerender; dur=1.000166, bd-edenx-ssr-render-html; dur=0.999927, tt_agw; dur=371",
+        "set-cookie": "ttwid=FIXTURE_TTWID; Domain=.iesdouyin.com; Path=/; Expires=Fri, 29 Oct 2027 06:57:56 GMT; HttpOnly",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "timing-allow-origin": "*",
+        "vary": "Accept-Encoding",
+        "via": "ens-cache7.cn9306[584,0]",
+        "x-content-type-options": "nosniff",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-modernjs-render": "server",
+        "x-tt-logid": "20261103145756A7ECB1D1B4BDD95C798C",
+        "x-tt-trace-host": "0146348be66b6c862c4581769eac3df17154e1298fe26793e646472c78dbcd8f0eaebb1a90ac39b27f527151bcb4ef10656a43455dcf446c36d51ae4113f9cf1a8779ad23cf9efcd6a40ee9949e1cff1608ac38341ae0def461d655d8a7ff0511c",
+        "x-tt-trace-id": "00-261103145756A7ECB1D1B4BDD95C798C-61E1543507C6F4E9-00",
+        "x-tt-trace-tag": "id=03;cdn-cache=miss;type=dyn",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body_file": "01_www.iesdouyin.com_share_video_7695771953914760484.html"
+    }
+  ],
+  "expect": {
+    "type": "video",
+    "title": "法律是守护人民的盾，刺穿不公的矛！ #抖音精选 #了不起的精讲团 #毒舌律师",
+    "author": "启明电影",
+    "media_kind": "video",
+    "media_count": 1,
+    "duration": 3097
+  }
+}

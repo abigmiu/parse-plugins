@@ -1,0 +1,24 @@
+{
+  "name": "multi-image tweet via fxTwitter v2",
+  "request": {
+    "text": "synthetic fixture (not a real tweet) https://x.com/fixture_user/status/1000000000000000001",
+    "url": "https://x.com/fixture_user/status/1000000000000000001"
+  },
+  "exchanges": [
+    {
+      "match": "api.fxtwitter.com/2/status/1000000000000000001",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body_file": "fx_v2_images.json"
+    }
+  ],
+  "expect": {
+    "type": "image",
+    "title": "Fixture 多图推文",
+    "author": "Fixture Author",
+    "media_kind": "image",
+    "media_count": 2
+  }
+}

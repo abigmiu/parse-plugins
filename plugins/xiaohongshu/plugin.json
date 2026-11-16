@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "id": "xiaohongshu",
+  "name": "小红书",
+  "version": "0.1.0",
+  "entry": "rule.mjs",
+  "description": "小红书笔记解析（视频/图文/实况图）",
+  "config": [
+    {
+      "key": "cookie",
+      "label": "Cookie",
+      "type": "secret",
+      "required": false,
+      "help": "登录后从浏览器复制；只保存在本机"
+    }
+  ]
+}

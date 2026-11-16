@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "id": "bilibili",
+  "name": "B 站",
+  "version": "0.1.0",
+  "entry": "rule.mjs",
+  "description": "哔哩哔哩视频/专栏解析",
+  "config": [
+    {
+      "key": "cookie",
+      "label": "Cookie",
+      "type": "secret",
+      "required": false,
+      "help": "登录后从浏览器复制；只保存在本机"
+    }
+  ]
+}

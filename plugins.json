@@ -1,0 +1,44 @@
+[
+  {
+    "id": "douyin",
+    "name": "抖音",
+    "version": "0.1.0",
+    "dir": "plugins/douyin",
+    "description": "抖音分享链接解析（视频/图文）"
+  },
+  {
+    "id": "xiaohongshu",
+    "name": "小红书",
+    "version": "0.1.0",
+    "dir": "plugins/xiaohongshu",
+    "description": "小红书笔记解析（视频/图文/实况图）"
+  },
+  {
+    "id": "bilibili",
+    "name": "B 站",
+    "version": "0.1.0",
+    "dir": "plugins/bilibili",
+    "description": "哔哩哔哩视频/专栏解析"
+  },
+  {
+    "id": "x",
+    "name": "X（推特）",
+    "version": "0.1.0",
+    "dir": "plugins/x",
+    "description": "X/Twitter 推文解析（视频/多图/长文/Article）"
+  },
+  {
+    "id": "zhihu",
+    "name": "知乎",
+    "version": "0.1.0",
+    "dir": "plugins/zhihu",
+    "description": "知乎回答/问题/专栏/想法解析（正文 + 图片/视频）"
+  },
+  {
+    "id": "ytdlp",
+    "name": "yt-dlp（通用兜底）",
+    "version": "0.1.0",
+    "dir": "plugins/ytdlp",
+    "description": "调用宿主 yt-dlp 能力的通用兜底规则"
+  }
+]

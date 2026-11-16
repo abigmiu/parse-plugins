@@ -1,0 +1,33 @@
+{
+  "name": "video tweet via t.co and official syndication",
+  "request": {
+    "text": "synthetic fixture (not a real tweet) https://t.co/Xfixture01",
+    "url": "https://t.co/Xfixture01"
+  },
+  "exchanges": [
+    {
+      "match": "https://t.co/Xfixture01",
+      "status": 301,
+      "headers": {
+        "location": "https://x.com/fixture_user/status/1000000000000000000"
+      },
+      "body": ""
+    },
+    {
+      "match": "cdn.syndication.twimg.com/tweet-result",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body_file": "syndication_video.json"
+    }
+  ],
+  "expect": {
+    "type": "video",
+    "title": "Fixture 视频推文 & more",
+    "author": "Fixture Author",
+    "media_kind": "video",
+    "media_count": 1,
+    "duration": 12
+  }
+}

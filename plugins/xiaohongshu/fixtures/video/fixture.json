@@ -1,0 +1,30 @@
+{
+  "name": "xiaohongshu-video",
+  "request": {
+    "text": "https://xhslink.cn/o/44wsXQm4HdU",
+    "url": "https://xhslink.cn/o/44wsXQm4HdU"
+  },
+  "exchanges": [
+    {
+      "match": "xhslink.cn/o/44wsXQm4HdU",
+      "status": 200,
+      "final_url": "https://www.xiaohongshu.com/discovery/item/6ae862f1000000003602b68c?xsec_token=FIXTURE&xsec_source=app_share&type=video",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "body_file": "note.html"
+    },
+    {
+      "match": "sns-bak-v6.xhscdn.com",
+      "status": 200,
+      "body": ""
+    }
+  ],
+  "expect": {
+    "type": "video",
+    "title": "06年女生相亲，我妈让我打扮成熟点，于是我..",
+    "author": "day off",
+    "media_kind": "video",
+    "media_count": 1
+  }
+}

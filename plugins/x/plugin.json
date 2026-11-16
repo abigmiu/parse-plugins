@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "id": "x",
+  "name": "X（推特）",
+  "version": "0.1.0",
+  "entry": "rule.mjs",
+  "description": "X/Twitter 推文解析（视频/多图/长文/Article）",
+  "config": [
+    {
+      "key": "cookie",
+      "label": "Cookie",
+      "type": "secret",
+      "required": false,
+      "help": "登录后从浏览器复制；只保存在本机"
+    },
+    {
+      "key": "twitterFixerServices",
+      "label": "Fixer 服务",
+      "type": "string",
+      "required": false,
+      "default": "api.fxtwitter.com,api.fixupx.com,api.twittpr.com,api.vxtwitter.com",
+      "help": "逗号分隔的第三方 fixer 域名，留空使用默认列表"
+    },
+    {
+      "key": "twitterFixerRelayUrl",
+      "label": "阅读器中继地址",
+      "type": "string",
+      "required": false,
+      "default": "https://r.jina.ai/",
+      "help": "阅读器中继的 base URL；填写 off/none/false/0 可关闭"
+    },
+    {
+      "key": "twitterGraphqlQueryId",
+      "label": "GraphQL queryId",
+      "type": "string",
+      "required": false,
+      "default": "",
+      "help": "可选；X 轮换 TweetResultByRestId 的 queryId 时无需改代码，留空使用内置值"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "id": "zhihu",
+  "name": "知乎",
+  "version": "0.1.0",
+  "entry": "rule.mjs",
+  "description": "知乎回答/问题/专栏/想法解析（正文 + 图片/视频）",
+  "config": [
+    {
+      "key": "cookie",
+      "label": "Cookie",
+      "type": "secret",
+      "required": false,
+      "help": "登录后从浏览器复制；回答需要 z_c0，专栏/问题需要 d_c0 参与 x-zse-96 签名；只保存在本机"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "xiaohongshu-live",
+  "request": {
+    "text": "https://xhslink.cn/o/397e7rxfJF1",
+    "url": "https://xhslink.cn/o/397e7rxfJF1"
+  },
+  "exchanges": [
+    {
+      "match": "xhslink.cn/o/397e7rxfJF1",
+      "status": 200,
+      "final_url": "https://www.xiaohongshu.com/discovery/item/6acf5143000000001c01d13d?xsec_token=FIXTURE&xsec_source=app_share&type=normal",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "body_file": "note.html"
+    },
+    {
+      "match": "sns-bak-v6.xhscdn.com",
+      "status": 200,
+      "body": ""
+    }
+  ],
+  "expect": {
+    "type": "image",
+    "title": "不挑脸型的发型（我反复剪了5年不过时！🤚🏻）",
+    "author": "顺德只做女发的皓辰发型设计",
+    "media_kind": "image",
+    "media_count": 5
+  }
+}

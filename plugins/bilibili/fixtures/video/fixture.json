@@ -1,0 +1,41 @@
+{
+  "name": "bilibili video BV1DDpE68EYy",
+  "request": {
+    "text": "https://www.bilibili.com/video/BV1DDpE68EYy",
+    "url": "https://www.bilibili.com/video/BV1DDpE68EYy"
+  },
+  "exchanges": [
+    {
+      "match": "api.bilibili.com/x/frontend/finger/spi",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body_file": "00_spi.json"
+    },
+    {
+      "match": "api.bilibili.com/x/web-interface/view",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body_file": "01_view.json"
+    },
+    {
+      "match": "api.bilibili.com/x/player/playurl",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body_file": "02_playurl.json"
+    }
+  ],
+  "expect": {
+    "type": "video",
+    "title": "花了20块钱用MiniMax H3做了个MV 《心动未署名》",
+    "author": "叮叮渚",
+    "media_kind": "video",
+    "media_count": 1,
+    "duration": 206
+  }
+}

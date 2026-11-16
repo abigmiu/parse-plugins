@@ -1,0 +1,32 @@
+{
+  "status": {
+    "type": "photo",
+    "text": "Fixture 多图推文",
+    "created_at": "2026-01-02T00:00:00.000Z",
+    "likes": 5,
+    "reposts": 1,
+    "replies": 0,
+    "views": 50,
+    "author": {
+      "id": "1234567890",
+      "name": "Fixture Author",
+      "screen_name": "fixture_user",
+      "avatar_url": "https://pbs.twimg.com/profile_images/fixture/avatar_normal.jpg",
+      "description": "fixture bio",
+      "followers": 100,
+      "following": 10
+    },
+    "media": {
+      "photos": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/fixture1.jpg"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/fixture2.jpg"
+        }
+      ]
+    }
+  }
+}
