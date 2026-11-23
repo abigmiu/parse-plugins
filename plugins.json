@@ -33,12 +33,5 @@
     "version": "0.1.0",
     "dir": "plugins/zhihu",
     "description": "知乎回答/问题/专栏/想法解析（正文 + 图片/视频）"
-  },
-  {
-    "id": "ytdlp",
-    "name": "yt-dlp（通用兜底）",
-    "version": "0.1.0",
-    "dir": "plugins/ytdlp",
-    "description": "调用宿主 yt-dlp 能力的通用兜底规则"
   }
 ]
